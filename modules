@@ -1,4 +1,11 @@
-GLUON_SITE_FEEDS='ffhb'
+GLUON_SITE_FEEDS='ffhb genofire wifictld'
 
 PACKAGES_FFHB_REPO=git://github.com/FreifunkBremen/ffhb-packages.git
 PACKAGES_FFHB_COMMIT=e314a51ebbd5e8b6da3ab2744354869b7740913a
+
+PACKAGES_GENOFIRE_REPO=https://github.com/genofire/packages.git
+PACKAGES_GENOFIRE_COMMIT=88421e73c308f10c335ce1b90942a96d5ef21f6e
+PACKAGES_GENOFIRE_BRANCH=respondd-module-wifisettings
+
+PACKAGES_WIFICTLD_REPO=git@dev.sum7.eu:wifictld/wifictld.git
+PACKAGES_WIFICTLD_COMMIT=60dd1f8e1303cea22b1b6f4a539b60f68cca8134

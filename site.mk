@@ -1,7 +1,6 @@
 GLUON_SITE_PACKAGES := \
 	gluon-mesh-batman-adv-14 \
 	gluon-respondd \
-	respondd-module-airtime \
 	gluon-autoupdater \
 	gluon-config-mode-core \
 	gluon-config-mode-hostname \
@@ -27,7 +26,9 @@ GLUON_SITE_PACKAGES := \
 	iwinfo \
 	iptables \
 	firewall \
-	haveged
+	haveged \
+	wifictld-mini \
+	respondd-module-wifictld
 
 # Allow overriding the these variables from the command line
 GLUON_RELEASE ?= $(patsubst v%,%,$(shell git -C $(GLUON_SITEDIR) describe --tags --dirty=+))
